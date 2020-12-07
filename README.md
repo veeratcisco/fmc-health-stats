@@ -13,6 +13,7 @@ As long as network route available to your FMC, script will be able to collect d
 ### Usage:
 ##### Set the environment for the script 
 `$export username=apiuser` make sure you provide the valid FMC username 
+#
 `$export password=password#12342%` make sure your provide the FMC user password
 ##### Execute the script to collect health stats
 `$python FMC_Health.py --host myfmc-hostname:port`
